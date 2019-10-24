@@ -1,0 +1,187 @@
+*{
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#header{
+	background: url('../images/bg-header-mobile.png') no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+
+@media (min-width: 376px){
+	#header{
+		background: url('../images/bg-header-desktop.png') no-repeat;
+	background-size: cover;
+	}
+}
+
+#logo{
+	padding-top: 100px;
+}
+
+h1{
+	font-weight: 600;
+	text-align: center;
+	color: hsl(210, 10%, 33%);
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-size: 40px;
+
+}
+
+
+p{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+	color: hsl(201, 11%, 66%)
+}
+
+#btn-ios{
+	background-color: hsl(171, 66%, 44%);
+	border-color: hsl(171, 66%, 44%);
+	border-radius: 20px;
+	box-shadow:2px 2px 3px 1px rgba(50, 50, 50, 0.5)
+	
+}
+#btn-ios:hover{
+	background-color: hsl(171, 66%, 55%);
+	border-color: hsl(171, 66%, 55%);
+
+}
+#separa{
+	margin-bottom:20px;
+}
+
+#btn-mac{
+	background-color: hsl(233, 100%, 69%);
+	border-color: hsl(233, 100%, 69%);
+	border-radius: 20px;
+	box-shadow:2px 2px 3px 1px rgba(50, 50, 50, 0.5)
+}
+
+#btn-mac:hover{
+	background-color: hsl(233, 100%, 80%);
+	border-color: hsl(233, 100%, 80%);
+}
+
+#intro h2{
+	text-align: center;
+	color: hsl(210, 10%, 33%);
+	margin-top: 150px;
+	font-weight: 600;
+}
+
+#main{
+	margin-top: 50px;
+}
+
+#primeiro{
+	margin-top: 50px;
+}
+
+.h3-righ{
+	color: hsl(210, 10%, 33%);
+	text-align: center;
+	font-size: 20px;
+}
+
+.p-right{
+	text-align: center;
+	font-size: 16px;
+	color: hsl(201, 11%, 66%)
+	margin-bottom: 20px;
+}
+
+#super{
+	margin-top: 40px;
+}
+
+#pc2{
+	margin-top: 50px;
+}
+
+.card img{
+	width: 50px;
+	height: 100%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.card{
+	border: none;
+}
+
+#sneak{
+	margin-bottom: 32px;
+}
+
+#empresas{
+	margin-top: 70px;
+}
+.logos{
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+#footer{
+	background-color: #DCDCDC;
+	margin-top: 150px;
+	min-height: 150px;
+}
+
+#logo-footer{
+	width: 50px;
+	height: 100%;
+	padding-top:  30px;
+	padding-bottom: 30px;
+	
+}
+
+
+
+.linkkk{
+	
+	line-height: 50px;
+	text-align: center;
+}
+@media (min-width: 376px){
+	.linkkk{
+		padding-top: 30px;
+		text-align: left;
+	}
+}
+
+.linkkk a{
+	color: hsl(210, 10%, 33%);
+	text-decoration: none;
+
+
+}
+
+.linkkk a:hover{
+	color: hsl(171, 66%, 44%);
+}
+
+.icones{
+	padding-top: 40px;
+	padding-bottom: 30px;
+	float: center;
+
+}
+
+.icones i{
+  width: 36px;
+  line-height: 30px;
+  padding: 0 10px;
+  color: #666;
+  text-decoration: none;
+}
+
+.icones i:hover{
+	color: hsl(171, 66%, 44%);
+}
+
+.icones a{
+	text-decoration: none;
+}
