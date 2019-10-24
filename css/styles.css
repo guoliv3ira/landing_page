@@ -124,14 +124,14 @@ p{
 }
 
 #footer{
-	background-color: #DCDCDC;
 	margin-top: 150px;
 	min-height: 150px;
+	border-top: 1px solid #666;
 }
 
 #logo-footer{
 	width: 50px;
-	padding-top:  30px;
+	padding-top:  40px;
 	padding-bottom: 30px;
 	
 }
